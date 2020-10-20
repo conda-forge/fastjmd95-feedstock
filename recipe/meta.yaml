@@ -1,5 +1,5 @@
 {% set name = "fastjmd95" %}
-{% set version = "0.1" %}
+{% set version = "0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 869da77b68786f6b676be6868f10695abcf56f41ebddb152712cf6a8920d03f3
+  sha256: 93a31669436f8d60e910835836676d9cdf10697eca88320ad9ef2627814247b5
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -31,7 +31,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Numba implementation the JMD95 ocean equation of state'
+  summary: Numba implementation the JMD95 ocean equation of state
   doc_url: https://nbviewer.jupyter.org/github/xgcm/fastjmd95/blob/master/doc/fastjmd95_tutorial.ipynb
   dev_url: https://github.com/xgcm/fastjmd95
 
