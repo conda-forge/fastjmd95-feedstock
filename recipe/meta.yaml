@@ -18,6 +18,8 @@ requirements:
   host:
     - python
     - pip
+    - xarray
+    - dask
   run:
     - python
     - numba
@@ -25,7 +27,9 @@ requirements:
 test:
   imports:
     - fastjmd95
-
+  commands:
+    - pytest tests test_pkg_integration.py
+    
 about:
   home: https://github.com/xgcm/fastjmd95
   license: MIT
