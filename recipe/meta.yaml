@@ -28,7 +28,7 @@ test:
   imports:
     - fastjmd95
   commands:
-    - pytest tests test_pkg_integration.py
+    - pytest
     
 about:
   home: https://github.com/xgcm/fastjmd95
