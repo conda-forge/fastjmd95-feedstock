@@ -5,11 +5,13 @@ Home: https://github.com/xgcm/fastjmd95
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fastjmd95-feedstock/blob/master/LICENSE.txt)
 
 Summary: Numba implementation the JMD95 ocean equation of state
 
+Development: https://github.com/xgcm/fastjmd95
 
+Documentation: https://nbviewer.jupyter.org/github/xgcm/fastjmd95/blob/master/doc/fastjmd95_tutorial.ipynb
 
 Current build status
 ====================
